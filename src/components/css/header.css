@@ -1,0 +1,20 @@
+.header {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* TO DO: Set Header into Two Containers(HomeLogo and ProfileNav) and properly make them align left/right into the corners */
+.header__home {
+  margin-right: 20rem;
+}
+.header__profile-login {
+  display: inline;
+}
+.header__profile-icon {
+  margin-left: 1rem;
+}
+.header__home:link,
+.header__profile-icon:link {
+  background-color: transparent;
+}

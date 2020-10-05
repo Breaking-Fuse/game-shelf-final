@@ -1,0 +1,10 @@
+.login {
+  text-align: center;
+  color: gold;
+  font-weight: bold;
+}
+.login__register,
+.login__register-link {
+  font-size: large;
+  font-weight: lighter;
+}

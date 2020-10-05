@@ -1,0 +1,11 @@
+.recent-activity__status-container {
+  display: block;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gold;
+  margin: 1rem;
+}
+.recent-activity__status-content {
+  margin-bottom: 20rem;
+  margin-left: 1rem;
+}

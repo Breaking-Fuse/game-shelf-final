@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 20px;
+}
+body {
+  background-color: darkslategrey;
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Cairo", sans-serif;
+}
+
+a {
+  color: rgb(0, 200, 255);
+  font-size: 24px;
+  transition: color 0.2s, background-color 0.2s;
+}
+a:link {
+  background-color: transparent;
+  color: white;
+}
+a:visited {
+  background-color: transparent;
+  color: white;
+}
+a:focus {
+  background-color: transparent;
+  color: white;
+}
+a:hover {
+  background-color: transparent;
+  color: white;
+}
