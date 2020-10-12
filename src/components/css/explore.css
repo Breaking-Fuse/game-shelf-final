@@ -1,11 +1,21 @@
-.explore__status-container {
+.explore__module {
   display: block;
   border-style: solid;
-  border-radius: 10px;
-  border-color: gold;
-  margin: 1rem;
+  border-radius: 20px;
+  background-color: lightgray;
+  border-color: lime;
+  border-width: 2px;
+  box-shadow: 0px 2px 24px 0px lime;
 }
-.explore__status-content {
-  margin-bottom: 20rem;
-  margin-left: 1rem;
+.explore__module-container {
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.explore__module-content {
+  margin-bottom: 15rem;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 2rem;
 }

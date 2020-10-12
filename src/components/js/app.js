@@ -4,6 +4,7 @@ import HomePage from "../../pages/home-page";
 import Header from "./header";
 import Footer from "./footer";
 import LoginPage from "../../pages/login-page";
+import ProfilePageDemo from "../../pages/profile-page-demo";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </Route>
         <Route path="/login">
           <LoginPage />
+        </Route>
+        <Route path="/username/profile">
+          <ProfilePageDemo />
         </Route>
       </Switch>
       <Footer />

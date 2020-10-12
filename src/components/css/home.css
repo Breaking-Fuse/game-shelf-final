@@ -1,4 +1,8 @@
-.home__modules-recent-activity,
-.home__modules-explore {
-  display: inline;
+.home__modules {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.home__modules-item:last-child {
+  margin-top: 2rem;
 }

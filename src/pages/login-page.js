@@ -1,23 +1,29 @@
 import React from "react";
 import "../components/css/login.css";
+import AccountLogin from "../components/js/account-login";
+import accounts from "../data/accounts";
 
 function LoginPage() {
   return (
     <div className="login">
-      <div className="login__username-container">
-        Username: <input className="login__username-input" type="text"></input>
-      </div>
-      <div className="login__password-container">
-        Password:{" "}
-        <input className="login__password-input" type="password"></input>
-      </div>
-      <button className="login__button">Login</button>
-      <div className="login__register">
-        Don't have an Account?{" "}
-        <a className="login_register-link" href="/">
-          Sign Up
-        </a>
-      </div>
+      <AccountLogin accounts={accounts} />
+      <p>
+        <i>This is a Demo. Possible accounts available are:</i>
+      </p>
+      <ul className="demo-accounts">
+        <li>(username, password)</li>
+        <li>(hello, world)</li>
+        <li>(john, ada)</li>
+      </ul>
+      <p>
+        <i>
+          Logging in will eventually redirect you to your very own Profile, add
+          a "Your Recent Activity" Module to the home page, and change the
+          navigation bar to show "Add a Game", "Connect", and "Sign Out".
+          <br />
+          Use Developer Tools F12 to see if you successfully signed in.
+        </i>
+      </p>
     </div>
   );
 }

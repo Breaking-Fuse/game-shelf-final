@@ -5,9 +5,15 @@ import "../components/css/home.css";
 
 function HomePage() {
   return (
-    <div className="home__modules">
-      <RecentActivity className="home__modules-recent-activity" />
-      <Explore className="home__modules-explore" />
+    <div className="home__container">
+      <ul className="home__modules">
+        <li className="home__modules-item">
+          <RecentActivity className="home__modules-recent-activity" />
+        </li>
+        <li className="home__modules-item">
+          <Explore className="home__modules-explore" />
+        </li>
+      </ul>
     </div>
   );
 }

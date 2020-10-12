@@ -1,10 +1,11 @@
 .login {
+  margin: 1rem;
   text-align: center;
   color: gold;
   font-weight: bold;
 }
-.login__register,
-.login__register-link {
-  font-size: large;
-  font-weight: lighter;
+
+.demo-accounts {
+  list-style: none;
+  font-size: 20px;
 }

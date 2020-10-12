@@ -1,0 +1,28 @@
+.container {
+  margin: 2rem;
+}
+.add-game__module {
+  display: block;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: lightgray;
+  border-color: lime;
+  border-width: 2px;
+  box-shadow: 0px 2px 24px 0px lime;
+}
+
+.add-game__container {
+  margin: 1rem;
+  font-size: medium;
+  font-weight: bold;
+}
+#myUL {
+  list-style: none;
+}
+
+#addGameButton {
+  margin: 0rem 0rem 0rem 2rem;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
